@@ -1,19 +1,38 @@
 # Checkers
 - Checkers project which was using to understand some OOP principles.
 - Using SFML lib.
-# How to install SFML:
 
-- Download SFML https://www.sfml-dev.org/ (Windows) or install (Mac OS) 'brew install sfml'
-- Compile it
-- Change path to your path in "main.cpp"
-- Compiling (Mac OS):
+## Requirements:
+- Download SFML latest. 
+- Make sure you edit [CMakeLists.txt](CMakeLists.txt) file, line 14, change CUSTOM_SFML_PATH to your local path, where you installed SFML
 
-  g++ main.cpp -I/opt/homebrew/Cellar/sfml/2.5.1_1/include -o output_filename -L/opt/homebrew/Cellar/sfml/2.5.1_1/lib -lsfml-system -lsfml-graphics -lsfml-window -lsfml-audio -std=c++20
-- Compiling (Windows):
+### Windows :
+- Visual Studio 2022 (complete with c++ workload)
+- Cmake 3.x latest (OPTIONAL, included in Visual Studio)
 
-  g++ -c main.cpp -o output_filename.o -I"install_SFML_PATH\include" -DSFML_STATIC
-g++ output_filename.o -o output_filename -L"sfml-install-path\lib" -lsfml-graphics-s -lsfml-window-s -lsfml-system-s -lsfml-audio-s
+## MacOS
+- Xcode latest.
+- Cmake GUI (not included, IMPORTANT)
 
-# Preview of game
+## How to install SFML:
+- Download SFML 2.6.x https://www.sfml-dev.org/ (Windows) and (Mac OS as Frameworks libs) compiled binaries.
+- Optionally, you can download SFML sources and build locally yourself.
+- For MacOS, you can alternatively use `brew install sfml`. (Not recommended. It's best to use Frameworks, see official link above)
+
+## Building on Mac OS:
+
+1. Open this folder in Cmake GUI, and select build folder "out/"
+2. Click **Configure** > choose Xcode Generator > click **Done**. Leave other settings as is.
+3. Click **Generate**, after few seconds, Xcode Project will be ready. Click **Open Project in Xcode**.
+4. After Xcode opens, click "Product" > "Edit Scheme" > select "Release". Click Save. Now click "Product" > "Build".
+
+
+## Building on Windows:
+
+1. Simply import this project folder in Visual Studio 2022.
+2. Automatically Cmake will generate the project for you.
+3. Click "Build"
+
+# Screenshot of the game
 ![Preview](https://user-images.githubusercontent.com/86831845/176343926-f181b8cf-6b69-47e4-b8b2-48c0f0ee77ba.png)
 

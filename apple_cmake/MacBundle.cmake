@@ -1,5 +1,4 @@
-
-# images
+# images & fonts
 file(GLOB_RECURSE my_images "${CMAKE_SOURCE_DIR}/resources/*")
 foreach(FILE ${my_images})
   file(RELATIVE_PATH NEW_FILE "${CMAKE_SOURCE_DIR}/" ${FILE})
@@ -18,7 +17,7 @@ set_target_properties(
              XCODE_ATTRIBUTE_CODE_SIGNING_ALLOWED "NO"
              XCODE_ATTRIBUTE_LD_RUNPATH_SEARCH_PATHS "@executable_path/../Frameworks"
              MACOSX_BUNDLE_BUNDLE_NAME "${CMAKE_PROJECT_NAME}"
-             MACOSX_BUNDLE_GUI_IDENTIFIER "com.davistiba.${CMAKE_PROJECT_NAME}"
+             MACOSX_BUNDLE_GUI_IDENTIFIER "com.moultree.${CMAKE_PROJECT_NAME}"
              MACOSX_BUNDLE_COPYRIGHT "(c) 2023, Davis Tibbz"
              MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
              MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION}
