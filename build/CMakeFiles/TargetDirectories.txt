@@ -1,0 +1,3 @@
+/Users/davis/Documents/work_mine/Checkers-SFML/build/CMakeFiles/Checkers.dir
+/Users/davis/Documents/work_mine/Checkers-SFML/build/CMakeFiles/edit_cache.dir
+/Users/davis/Documents/work_mine/Checkers-SFML/build/CMakeFiles/rebuild_cache.dir

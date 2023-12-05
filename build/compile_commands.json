@@ -1,0 +1,38 @@
+[
+{
+  "directory": "/Users/davis/Documents/work_mine/Checkers-SFML/build",
+  "command": "/usr/bin/clang++  -I/Library/Frameworks/SFML.framework/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -F/Library/Frameworks -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -iframework /Library/Frameworks/.  -Wall -o CMakeFiles/Checkers.dir/src/AppController.cpp.o -c /Users/davis/Documents/work_mine/Checkers-SFML/src/AppController.cpp",
+  "file": "/Users/davis/Documents/work_mine/Checkers-SFML/src/AppController.cpp",
+  "output": "CMakeFiles/Checkers.dir/src/AppController.cpp.o"
+},
+{
+  "directory": "/Users/davis/Documents/work_mine/Checkers-SFML/build",
+  "command": "/usr/bin/clang++  -I/Library/Frameworks/SFML.framework/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -F/Library/Frameworks -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -iframework /Library/Frameworks/.  -Wall -o CMakeFiles/Checkers.dir/src/Game.cpp.o -c /Users/davis/Documents/work_mine/Checkers-SFML/src/Game.cpp",
+  "file": "/Users/davis/Documents/work_mine/Checkers-SFML/src/Game.cpp",
+  "output": "CMakeFiles/Checkers.dir/src/Game.cpp.o"
+},
+{
+  "directory": "/Users/davis/Documents/work_mine/Checkers-SFML/build",
+  "command": "/usr/bin/clang++  -I/Library/Frameworks/SFML.framework/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -F/Library/Frameworks -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -iframework /Library/Frameworks/.  -Wall -o CMakeFiles/Checkers.dir/src/Helpers.cpp.o -c /Users/davis/Documents/work_mine/Checkers-SFML/src/Helpers.cpp",
+  "file": "/Users/davis/Documents/work_mine/Checkers-SFML/src/Helpers.cpp",
+  "output": "CMakeFiles/Checkers.dir/src/Helpers.cpp.o"
+},
+{
+  "directory": "/Users/davis/Documents/work_mine/Checkers-SFML/build",
+  "command": "/usr/bin/clang++  -I/Library/Frameworks/SFML.framework/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -F/Library/Frameworks -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -iframework /Library/Frameworks/.  -Wall -o CMakeFiles/Checkers.dir/src/Piece.cpp.o -c /Users/davis/Documents/work_mine/Checkers-SFML/src/Piece.cpp",
+  "file": "/Users/davis/Documents/work_mine/Checkers-SFML/src/Piece.cpp",
+  "output": "CMakeFiles/Checkers.dir/src/Piece.cpp.o"
+},
+{
+  "directory": "/Users/davis/Documents/work_mine/Checkers-SFML/build",
+  "command": "/usr/bin/clang++  -I/Library/Frameworks/SFML.framework/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -F/Library/Frameworks -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -iframework /Library/Frameworks/.  -Wall -o CMakeFiles/Checkers.dir/src/SceneRenderer.cpp.o -c /Users/davis/Documents/work_mine/Checkers-SFML/src/SceneRenderer.cpp",
+  "file": "/Users/davis/Documents/work_mine/Checkers-SFML/src/SceneRenderer.cpp",
+  "output": "CMakeFiles/Checkers.dir/src/SceneRenderer.cpp.o"
+},
+{
+  "directory": "/Users/davis/Documents/work_mine/Checkers-SFML/build",
+  "command": "/usr/bin/clang++  -I/Library/Frameworks/SFML.framework/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/System/Library/Frameworks -F/Library/Frameworks -g -std=gnu++17 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -iframework /Library/Frameworks/.  -Wall -o CMakeFiles/Checkers.dir/src/main.cpp.o -c /Users/davis/Documents/work_mine/Checkers-SFML/src/main.cpp",
+  "file": "/Users/davis/Documents/work_mine/Checkers-SFML/src/main.cpp",
+  "output": "CMakeFiles/Checkers.dir/src/main.cpp.o"
+}
+]
