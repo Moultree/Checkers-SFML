@@ -4,6 +4,7 @@
 
 #include "PieceTypes.h"
 #include "Game.h"
+#include "ResourcePath.h"
 #include "Piece.h"
 
 using namespace std;

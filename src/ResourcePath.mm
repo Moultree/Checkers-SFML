@@ -2,7 +2,7 @@
 // FOR MAC OS ONLY
 ///////////////////
 #ifdef __APPLE__
-#include "ResourcePath.hpp"
+#include "ResourcePath.h"
 #import <Foundation/Foundation.h>
 
 std::string getResourcePath(const std::string& relativePath) {
