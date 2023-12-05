@@ -367,5 +367,6 @@ FodyWeavers.xsd
 .TemporaryItems
 .Trashes
 *.xcodeproj/*
-build/
-out/
+/out
+/build
+/cmake-build-*/
