@@ -25,7 +25,7 @@
 2. Click **Configure** > choose Xcode Generator > click **Done**. Leave other settings as is.
 3. Click **Generate**, after few seconds, Xcode Project will be ready. Click **Open Project in Xcode**.
 4. After Xcode opens, click "Product" > "Edit Scheme" > select "Release". Click Save. Now click "Product" > "Build".
-
+5. If you want to share your app with others, you may want to copy the SFML frameworks into your APP bundle during Build time. Also, have to Sign it using Apple Developer account. 
 
 ## Building on Windows:
 
