@@ -1,9 +1,10 @@
 # Checkers
-- Checkers project which was using to understand some OOP principles.
-- Using SFML lib.
+- Checkers project which was using to understand some OOP principles, using SFML framework.
+- Tested on Windows 10 and MacOS 14 (Sonoma)
 
 ## Requirements:
-- Download SFML 2.6.x latest. 
+- Download SFML 2.6.x latest.
+- 64 bit machine.
 - Download latest [CMake Installer](https://cmake.org/download/) for your OS
 - Make sure you edit [CMakeLists.txt](CMakeLists.txt) file, line 14, change `CUSTOM_SFML_PATH` to your local path, where you installed SFML
 
