@@ -361,3 +361,12 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+**/.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+*.xcodeproj/*
+/out
+/build
+/cmake-build-*/
