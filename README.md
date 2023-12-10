@@ -1,17 +1,17 @@
 # Checkers
 - Checkers project which was using to understand some OOP principles, using SFML framework.
-- Tested on Windows 10 and MacOS 14 (Sonoma)
+- Tested on Windows 10 and MacOS 11 (Big Sur) 
 
 ## Requirements:
 - Download SFML 2.6.x latest.
-- 64 bit machine.
 - Download latest [CMake Installer](https://cmake.org/download/) for your OS
 - Make sure you edit [CMakeLists.txt](CMakeLists.txt) file, line 14, change `CUSTOM_SFML_PATH` to your local path, where you installed SFML
 
 ### Windows :
 - Visual Studio 2022 (select Complete Desktop C/C++ workload)
-
-## MacOS
+- Luckily, Visual Studio 2022 is bundled with CMake already
+  
+### MacOS
 - Xcode latest with MacOS SDK.
 - Extra Dev Build Tools. After Xcode installs, please run this in terminal:
   ```bash
@@ -21,10 +21,10 @@
 ## How to install SFML:
 - Download SFML 2.6.x https://www.sfml-dev.org/download.php (Windows MSVC) or (Mac OS clang) **compiled binaries**.
 - For Windows, chooose MSVC edition of SFML. (avoid MingW or any other)
-- For MacOS, please only keep "Frameworks" files for SML, not "dylibs".
+- For MacOS, please only keep "Frameworks" files for SFML, not "dylibs".
+- For more details, follow [official guide](https://www.sfml-dev.org/tutorials/2.6/start-osx.php#installing-sfml) for MacOS 
+- For Windows, after downloading, simply move the SFML folder to a good location on disk, e.g `C:/SFML`
 - Alternatively, you can download SFML sources and build locally yourself.
-- Follow [official guide](https://www.sfml-dev.org/tutorials/2.6/start-osx.php#installing-sfml) for MacOS 
-- For Windows, after donwloading, simple move the SFML folder to a good location on disk, e.g `C:/SFML`
 
 ## Building on Mac OS:
 
@@ -32,12 +32,12 @@
 2. Click **Configure** > choose "Xcode Generator" > click **Done**. Leave other settings as is.
 3. Click **Generate**, after few seconds, Xcode Project will be ready. Click **Open Project in Xcode**.
 4. After Xcode opens, click "Product" > "Edit Scheme" > select "Release". Click Save. Now click "Product" > "Build".
-5. If you want to share your app with others, you may want to copy the SFML frameworks into your APP bundle during Build time (using XCode).
+5. If you want to share your App with others, you need to _Copy SFML Frameworks_ into your APP Bundle during **Build Phase** (using XCode).
 
 ## Building on Windows:
 
 1. Simply import this project folder in Visual Studio 2022.
-2. Automatically Cmake will generate the project for you.
+2. Automatically CMake for Visual Studio will generate the project for you.
 3. Select "Release" mode, then click "Build"
 
 # Screenshot of the game
